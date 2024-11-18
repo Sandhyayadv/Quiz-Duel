@@ -1,8 +1,7 @@
-/* General Styles */
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
   background: linear-gradient(to bottom, #59bef9, #6fce65);
   color: #000000;
   display: flex;
@@ -29,28 +28,11 @@ body {
   gap: 20px;
 }
 
-/* .start-screen button {
-  padding: 10px 20px;
-  font-size: 18px;
-  background-color: #2575fc;
-  border: none;
-  border-radius: 5px;
-  color: #ffffff;
-  cursor: pointer;
-  transition: background 0.3s ease;
-} */
-
-/* .start-screen button:hover {
-  background-color: #1b57c9;
-} */
-
-/* Player Setup */ */
- .player-setup {
+.player-setup {
   display: flex;
   flex-direction: column;
   gap: 15px;
   margin: 35px;
-  /* width: 500px; */
 }
 
 .player-setup input {
@@ -59,10 +41,9 @@ body {
   padding: 8px;
   font-size: 16px;
   border: none;
-  margin: 20px;
   border-radius: 5px;
-  margin-left: 37px;
-  width:275px;
+  margin-left: 0px;
+  width: 275px;
 }
 
 .player-setup select {
@@ -71,14 +52,11 @@ body {
   border: none;
   border-radius: 5px;
   margin-bottom: 15px;
-
- 
 }
 
 .player-setup button {
   padding: 10px 20px;
   font-size: 18px;
-  /* background-color: #2575fc; */
   background-color: #015327;
   border: none;
   border-radius: 5px;
@@ -88,11 +66,9 @@ body {
 }
 
 .player-setup button:hover {
-  /* background-color: #1b57c9; */
   background-color: #021f7e;
 }
 
-/* Question Area */
 .question-area {
   margin: 20px;
 }
@@ -123,14 +99,13 @@ body {
   background-color: #1b57c9;
 }
 
-/* Play Again */
 .play-again {
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
 
-.lets-go{
+.lets-go {
   padding: 10px 15px;
   font-size: 16px;
   background-color: #04749d;
@@ -141,42 +116,11 @@ body {
   cursor: pointer;
   transition: background 0.3s ease;
 }
-.lets-go:hover{
+.lets-go:hover {
   background-color: #1b57c9;
 }
 
-
-/* input{
-  display: flex;
-  border: none;
-  border-radius: 5px;
-  padding: 6px;
-  margin: 10px;
-  width:233px;
-} */
-/* #category{
-  display: flex;
-  border: none;
-  border-radius: 5px;
-  padding: 6px;
-  margin: 10px;
-} */
-/* .play{
-  padding: 10px 15px;
-  font-size: 16px;
-  background-color: #015327;
-  border: none;
-  border-radius: 5px;
-  color: #ffffff;
-  margin: 5px;
-  cursor: pointer;
-  transition: background 0.3s ease;
-}
-.play:hover{
-  background-color: #021f7e;
-} */
-
-.play-again select{
+.play-again select {
   padding: 8px;
   font-size: 16px;
   border: none;
@@ -199,7 +143,6 @@ body {
   background-color: #1b57c9;
 }
 
-/* Results */
 .results {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -215,22 +158,6 @@ body {
   margin: 10px;
 }
 
-/* .results button {
-  padding: 10px 20px;
-  font-size: 18px;
-  background-color: #2575fc;
-  border: none;
-  border-radius: 5px;
-  color: #ffffff;
-  cursor: pointer;
-  transition: background 0.3s ease;
-} */
-
-/* .results button:hover {
-  background-color: #1b57c9;
-} */
-
-/* Responsive Design */
 @media (max-width: 600px) {
   .App {
     padding: 15px;
@@ -242,10 +169,7 @@ body {
   }
 }
 
-
-/* Question Option Buttons */
 .question-area button {
-  /* display: flex; */
   flex-direction: column;
   padding: 10px 15px;
   font-size: 16px;
@@ -260,25 +184,5 @@ body {
 
 .question-area button:hover {
   background-color: #1b57c9;
-  transform: scale(1.05); /* Slight zoom effect on hover */
-}
-
-/* Correct Answer */
-.question-area button.correct {
-  background-color: #28a745 !important;
-  color: #ffffff;
-}
-
-/* Wrong Answer */
-.question-area button.wrong {
-  background-color: #dc3545 !important;
-  color: #ffffff;
-}
-
-/* Disabled State */
-.question-area button:disabled {
-  background-color: #6c757d;
-  color: #ffffff;
-  cursor: not-allowed;
-  opacity: 0.7;
+  transform: scale(1.05);
 }
